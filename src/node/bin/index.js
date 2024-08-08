@@ -32,7 +32,7 @@ const URL='https://6god8pgyzf.execute-api.us-west-2.amazonaws.com/databases';
     }).toSorted((a, b) => {
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted
         // To memorize this, remember that (a, b) => a - b sorts numbers in ascending order.
-        b.percent_used - a.percent_used;
+        return b.percent_used - a.percent_used;
     })
     
     console.dir(sorted);
