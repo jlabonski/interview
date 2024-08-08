@@ -1,0 +1,18 @@
+{
+  "name": "autodesk-interview",
+  "version": "0.0.1",
+  "description": "Autodesk interview",
+  "bin": {
+    "interview": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "bin": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "superagent": "^10.0.0"
+  }
+}
