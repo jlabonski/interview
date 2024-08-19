@@ -1,6 +1,6 @@
 # Problem
 
-API URL: https://6god8pgyzf.execute-api.us-west-2.amazonaws.com/databases}
+API URL: https://6god8pgyzf.execute-api.us-west-2.amazonaws.com/databases
 
 This mock api provides info about databases in our environment. You're going
 to use it to retrieve information, sort it, and return to a user.  Write a
